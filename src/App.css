@@ -1,0 +1,56 @@
+body {
+  background-color: rgb(7, 4, 58);
+
+}
+img {
+  height: 100%;
+  float: left;
+  padding-right: 10px;
+}
+
+.Movie {
+  width: 500px;
+  height:200px;
+  float: left;
+  margin: 10px;
+  background-color: rgb(243, 243, 243);
+
+  
+}
+
+.MovieTitle {
+  font-weight: bold;
+}
+
+.MovieText {
+  font-size: 70%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* number of lines to show */
+  -webkit-box-orient: vertical;
+}
+
+.GenresText, .VideosText {
+  font-size: 70%;
+}
+
+.VideoText {
+  color:'blue';
+  cursor: pointer;
+}
+
+.title {
+  font-size: 40px;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-left: 25px;
+  padding-top: 15px;
+}
+.Modal {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
